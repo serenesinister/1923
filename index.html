@@ -7,10 +7,25 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="js/index.js"></script>
 </head>
-<body>
-    <h1> Grand Theft Auto</h1>
-    <div class = "logo">
-        <img src="./img/official-gta-vi-logo.png">
-    </div>
-</body>
-</html>
+  <body> <!--Inicio do elemento "body". Como seu nome sugere, ele representa o corpo principal de uma página web.
+    Todo o conteúdo visível da página é colocado dentro desse elemento. -->
+
+    <audio id="efeitoSonoro">
+        <source src="https://drive.google.com/uc?id=1Z_UxtJckkCpghSluHY1CKq3c6pQDzl2s" type="audio/mpeg">
+    </audio>
+    <!-- estas são tags para incorporar elementos de áudio no projeto, no primeiro caso, referente os botões, no segundo, uma trilha sonora e narração -->
+    <audio id="audioNarracao" controls style="display: none;"></audio>
+      
+    <div> <!--Inicio do elmento "div. Ela é usada como um conteiner genérico para agrupar e organizar elementos HTML,
+    permitindo a estruturação e estilização do conteudo."-->
+
+        <div id="jogo-container"> <!-- Contêiner principal do jogo. -->
+            <p id="narrativa"></p> <!-- Contêiner principal do jogo. -->
+            <div id="opcoes"></div>   <!-- Div para as opções do jogo. -->
+        </div>
+
+    </div> <!--Fim do elemento "div".-->
+  
+  </body>  <!--Fim do elemento "body".-->
+
+  </html>  <!--Fim do elemento "html".-->
