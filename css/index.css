@@ -1,0 +1,32 @@
+body{
+    background: rgb(0, 0, 0);
+    text-align: center;
+}
+h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+h2 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+h3 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    width: 200px; /* Substitua "200px" pela largura desejada */
+    height: auto; /* Manter a proporção original da imagem */
+}
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+}
