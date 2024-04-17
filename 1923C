@@ -8,7 +8,7 @@
 // definição da estrutura de página
 typedef struct {
     char titulo[50];
-    char texto[1300];
+    char texto[1500];
     char opcoes[MAX_OPCOES][50]; // array de opções
     int destinos[MAX_OPCOES];    // array de destinos para as opções
     int num_opcoes;              // número de opções válidas para esta página
@@ -235,10 +235,33 @@ void Abertura(){
                 {11}, 1
             },
             { //11
-                "paginadecisaopub",    
+                "paginadecisaopub",  
+                
                 "\n  Ao chegar no pub da esquina, Adam se depara com uma"
                 "\n  surpreendente coincidência: Michelle, sua colega do" 
-                "\n  escritório, também estava lá.\n\n",
+                "\n  escritório, também estava lá.\n"
+                "\n            .======================================.\n"
+                "            | ___ ___ ___               _   _   _  |\n"
+                "      w*W*w | \\_/ \\_/ \\_/ C|||C|||C||| |-| |-| |-| |\n"
+                "      //`\\\\ | _|_ _|_ _|_  ||| ||| ||| |_| |_| |_| |,sS))S,\n"
+                "     (/a a\\)'======================================')(( \"(   .\n"
+                "     (\\_-_/)              {CORNER PUB 1923}       _-S); -/-_\\~/\n"
+                "    .-~'='~-.      .:.   .                       _-S(SS_(_  _Y_\n"
+                "   (`~`\"Y\"´~´\\    C|||' \\~/                       ((S/ _)_) /.-\n"
+                "    \\(_ * _)/ \\____|||___Y________________________ )\\   /\\//\n"
+                "     ))   (  \\ | _________________________________]\\|==(\\_/\n"
+                "    (/\\\\_//\\_/    ____    ____    ____    ____   | (/   `\n"
+                "    ´  '*' (_\\|  (____)  (____)  (____)  (____)  | |     |\n"
+                "    |       | |  |    |  |    |  |    |  |    |  | |     |\n"
+                "    |       | |  |    |  |    |  |    |  |    |  | /     \\\n"
+                "    |       | |  |    |  |    |  |    |  |    |  |//|  | \\\\\n"
+                "    |       | |  |____|  |____|  |____|  |____|  / |/   \\ |\\\n"
+                "    |       | |  I====I  I====I  I====I  I====I  /  /\\| \\  \\\n"
+                "    |       | |  |    |  |    |  |    |  |    |  | /.(=\\\n"
+                "    |       |                                        Y\\_\\\n"
+                "    |       |\n"
+                "    w*W*W*W*w\n",
+                
                 {"CONTINUAR SEGUINDO O SUSPEITO", "FALAR COM MICHELLE", "IGNORAR MICHELLE E O SUSPEITO"},
                 {17, 16, 12}, 3
             },
@@ -252,20 +275,19 @@ void Abertura(){
                 "paginarollsroyce",
                 
                 "\n\n                                . ' ' ' ' ' ' -.................     "
-                "\n                              ( >>\\zzzzzzzzz //zzzz `.        //"
-                "\n  Adam apressou-se             \\ <<<\\iiiii#::|: iii__#:::__   |  ."
-                "\n  demais para prosseguir      _,`-,\\<   #::::|::__#::::/__+_\\:|  v  "
+                "\n                              ( >>\\`zzZZZZZ _//ZZzz `.__      //"
+                "\n  Adam apressou-se             \\ <<<\\     #::|:    __#:::__   |  ."
+                "\n  demais para prosseguir      _,`-,\\<   #::::|::__#::::/__x_\\:|  v  "
                 "\n  o seu percuso solitário    /__  . `--,''`./ '.´\"\"\"\"\"      \"\"`. | "
                 "\n  e não percebeu quando     /  _`. `= |  `--,._  ' .       .  _.(O)._   .\ "
-                "\n  um luxuoso Rolls-Royce   '// \\ . ' | =  .  '--,   ` .  .-. ´/üÜÜü\\`'.-.   "
+                "\n  um luxuoso Rolls-Royce   '// \\ . ' | =  .  '--,   ` .   .-. ´/üÜÜü\\`'.-.   "
                 "\n  Silver Ghost 1907        -:: o |.  .|     .   __ \\_____(( )`/||||||\\(( )~ "
                 "\n  o acertou em cheio!       ::   ;-,_'' .   . ,' _ ` \"\"\" \"/|\"\"\"||--||\"\"\"|\\ `\\ "
                 "\n  R.I.P.                    \\ \\_/ _ :`-._ ' . ;´/ \\        `.  ||||||  .´    ; "
                 "\n                             \\__.´ .´    `-.,. ; o ;`-.__  [ ]_||||||_[ ]__ / "
-                "\n                              `---´          : :   ;~ ::: ~~~\\_'1923'_/~~~ :::  "
+                "\n                              `---´          : :   ;~ ::: ~~~\\_|1923|_/~~~ :::  "
                 "\n                                              \\ \\_/  / `-----------------´:; "
-                "\n                                               `.__.´                `._´.´\n\n",
-                        
+                "\n                                               `.__.´                `._´.´\n\n",                        
                 {"NOVA JORNADA", "SAIR DO JOGO"},
                 {0, -3}, 2
             },
@@ -294,16 +316,21 @@ void Abertura(){
             { //16
                 "paginaconversamichelle",
                 
-                "\n  Conversando com Michelle, Adam percebe que ela está realmente"
-                "\n  interessada nos casos de invasões domiciliares.\n"
-                
-                "\n  Ela relata o temor de que a cidade fique perigosa com a"
-                "\n  imigração. Adam comenta sobre o assunto e menciona o que acabou"
-                "\n  de ver na janela do apartamento de sua vizinha, Isabella.\n"
-                
-                "\n  Michelle fica empolgada e sugere que eles explorem mais a situação,"
-                "\n  talvez conversando com Isabella ou investigando sua vizinhança"
-                "\n  para entender melhor os acontecimentos recentes.\n\n",
+                "\n  Conversando com Michelle, Adam percebe \n"  
+                "  que ela está realmente interessada nos \n" 
+                "  casos de invasões domiciliares.                      w*W*w\n"
+                "                                                       /_)\\\\\n"
+                "  Ela relata o temor de que a cidade             .   ´(/a a\\)`\n"
+                "  fique perigosa com a imigração. Adam          \\~/   (\\_-_/) \n"
+                "  comenta sobre o assunto e menciona o          _Y_  .-~'='~-.\n" 
+                "  que acabou de ver na janela do                Ww  /`~`\"Y\"`~`\\\n"
+                "  apartamento de sua vizinha, Isabella.         \\:\\/ /(_ * _)\\ \\\n"
+                "                                           ______\\ \\/__)___(__\\ \\________\n"
+                "  Michelle fica empolgada e sugere que            \"\"   .:    _/:/ .:.  .:.\n"
+                "  eles explorem mais a situação, talvez               C|(   (_\\/ C||| ´|||`\n"
+                "  conversando com Isabella ou investigando            (__)        |||\n"
+                "  sua vizinhança para entender melhor \n"  
+                "  os acontecimentos recentes.\n\n", 
                 
                 {"ACOMPANHAR MICHELLE", "SAIR DO PUB SOZINHO, SEM MICHELLE"},
                 {18, 13}, 2
