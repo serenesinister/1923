@@ -1,4 +1,4 @@
-![Capa do jogo](img/1695944210662.png)
+![Capa do jogo](img/1695944210662.jpg)
 
 # 1923 • O Mistério do Pub
 
